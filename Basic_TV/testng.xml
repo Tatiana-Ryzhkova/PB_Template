@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="core.BeforeAfterMethod"/>
+    </classes>
+    <listeners>
+    <listener class-name="net.sf.testng.databinding.TestAnnotationTransformer" />
+    </listeners>
+    <groups>
+    <run>
+      <include name="csv" />
+      <include name="properties" />
+      <include name="xml" />
+      </run>
+     </groups>
+     <classes>
+    <class name="core.VerifyTitle">
+        <methods>
+           <include name="testCSV" />
+           <include name="testProperties" />
+           <include name="testXML" />
+        </methods>
+       </class>
+     </classes>
+  </test>
+</suite>
