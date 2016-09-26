@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="core.BeforeAfterMethod"/>
+      <class name="core.VerifyTitle"/>
     </classes>
     <listeners>
     <listener class-name="net.sf.testng.databinding.TestAnnotationTransformer" />
@@ -15,7 +15,7 @@
       </run>
      </groups>
      <classes>
-    <class name="core.VerifyTitle">
+    <class name="core.Data_ToBeTransferred">
         <methods>
            <include name="testCSV" />
            <include name="testProperties" />

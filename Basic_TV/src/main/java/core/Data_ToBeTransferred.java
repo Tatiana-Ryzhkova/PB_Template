@@ -16,8 +16,7 @@ import java.net.URL;
 
 public class Data_ToBeTransferred {
 	
-	
-	
+			
 	@Test 
 	public void pbAssert() { 
 		WebDriver driver=new FirefoxDriver(); 
@@ -25,7 +24,7 @@ public class Data_ToBeTransferred {
 	driver.get("http://www.potterybarn.com/");
 	Assert.assertEquals("Home Furnishings, Home Decor, Outdoor Furniture & Modern Furniture | Pottery Barn",titleActual);
 	driver.quit();
-	 } }
+	 } } 
 	 
 	// @Test
    // public void pbAssert() {
@@ -69,9 +68,7 @@ public class Data_ToBeTransferred {
 
           //  String screenshot_path= Utility.captureScreenshot(driver, result.getName());
           //  String image= logger.addScreenCapture(screenshot_path);
-          //  logger.log(LogStatus.FAIL, "Title verification", image);
-
-        // }
+          //  logger.log(LogStatus.FAIL, "Title verification", image); }
 
    //     report.endTest(logger);
    //     report.flush();    }

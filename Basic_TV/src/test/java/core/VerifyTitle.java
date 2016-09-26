@@ -20,7 +20,7 @@ public class VerifyTitle {
 	@Test
 	public void TC01()
 	{
-		System.out.println("in TC01");
+		System.out.println("TC#01");
 	}
 	@BeforeTest
 	public void setUp()
